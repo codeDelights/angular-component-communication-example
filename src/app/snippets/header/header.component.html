@@ -1,4 +1,6 @@
 <section id="nav">
     <h3>I am from Header Component inside Snippets Module</h3>
-    <button (click)="hideMain()">Hide div in main</button>
+    <button (click)="hideMain()">
+        {{ isHidden ? 'Show' : 'Hide'}} div in main
+    </button>
 </section>
